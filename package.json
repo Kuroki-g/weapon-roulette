@@ -6,7 +6,9 @@
   "dependencies": {
     "discord.js": "^14.11.0"
   },
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js --input-type=module"
   }
 }
