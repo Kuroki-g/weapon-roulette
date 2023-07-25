@@ -2,12 +2,12 @@
 import { REST, Routes } from 'discord.js';
 
 // hey.jsのmodule.exportsを呼び出します。
-import { data } from './commands/hey.js';
+import rand from './commands/rand.js';
 import config from './config.json' assert { type: "json" };
 
 // 登録するコマンドの配列を作成する。
 const commands = [
-    data.toJSON()
+    rand.data.toJSON()
 ];
 
 /**
